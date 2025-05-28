@@ -65,5 +65,5 @@ function hideSearch() {
 		el.style.transitionDelay = (index * 0.4) / searchDelayEls.length + 's';
   });
   searchDelayEls.reverse();
-  searchInputEl.value = '';
+  searchInputEl.value = ''; //검색input 초기화
 }

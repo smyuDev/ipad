@@ -219,6 +219,7 @@ navigations.forEach((nav) => {
   mapEl.innerHTML = /* HTML */`
     <h3>
       <span class="text">${nav.title}</span>
+      <span class="icon">+</span>
     </h3>
     <ul>
       ${mapList}
@@ -231,3 +232,12 @@ navigations.forEach((nav) => {
 
 const thisYearEl = document.querySelector('span.this-year');
 thisYearEl.textContent = new Date().getFullYear();
+
+
+const mapEls = document.querySelectorAll('footer .navigations .map');
+mapEls.forEach((el) => {
+  const h3El = el.querySelector('h3');
+  h3El.addEventListener('click', () => {
+    el.classList.toggle('active');
+  });
+});

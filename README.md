@@ -3,7 +3,11 @@
 Apple 공식 iPad 소개 페이지를 참고하여 제작한 클론 웹사이트입니다.  
 HTML, CSS, JavaScript를 활용하여 정적인 UI를 구현하고, 반응형 레이아웃과 간단한 사용자 인터랙션을 포함하였습니다.
 
-![스크린샷](./screenshot.png) <!-- 프로젝트 이미지 있으면 해당 경로에 추가 -->
+![스크린샷](./images/screenshot_desktop.png) <!-- 프로젝트 이미지 있으면 해당 경로에 추가 -->
+
+---
+## 배포 사이트
+https://ipad-azure-two.vercel.app/
 
 ---
 
